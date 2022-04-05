@@ -1,0 +1,2204 @@
+{
+    "type": "FeatureCollection",
+    "features": [        {
+            "id": 25,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.6089,36.0131]},
+            "properties":
+                {
+                    "balloonContentHeader": "Краеведческий музей<br><span class='description'>Музей</span>",
+                    "balloonContent" : "Музей",
+                    "balloonContentBody": "<img style='width:15em' src='/img/58b0ddef-22ef-4655-a62a-391456556147.borismuseum.jpg'></br><b>Борисовский историко-краеведческий музей</b></br>Оценка: <b>0.0/5</b></br>Музей располагает значительной коллекцией предметов археологии, найденных на территории края и относящихся к различным периодам древних эпох — памятники бондарихинской и катакомбной культур.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='25'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Краеведческий музей'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac2.museum.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 27,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.6041,36.0027]},
+            "properties":
+                {
+                    "balloonContentHeader": "Церковь Архангела Михаила<br><span class='description'>Храм</span>",
+                    "balloonContent" : "Храм",
+                    "balloonContentBody": "<img style='width:15em' src='/img/34be3c9f-d48b-48d9-b72c-58008071d89b.borischurch.jpg'></br><b>Церковь во имя Архангела Михаила</b></br>Оценка: <b>0.0/5</b></br>Первый храм, построенный в Борисовской слободе – Михайло-Архангельская церковь. Храм Архистратига Михаила был возведен еще в 1698 г. из дерева. В 1804 г. в связи с ветхостью деревянного здания неподалеку был заложен новый каменный храм.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='27'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Церковь Архангела Михаила'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac1.church.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 28,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.6097,35.9983]},
+            "properties":
+                {
+                    "balloonContentHeader": "Борисовский монастырь<br><span class='description'>Храм</span>",
+                    "balloonContent" : "Храм",
+                    "balloonContentBody": "<img style='width:15em' src='/img/df154ca4-96d0-47e1-88f9-e24a440103a9.borismon.jpg'></br><b>Богородицкий женский монастырь</b></br>Оценка: <b>0.0/5</b></br>Богородицкий женский монастырь построили по приказу Бориса Шереметьева в 1709 году. Существует легенда, что во время Полтавской битвы фельдмаршала ранили, а спас его образ Тихвинской мадонны.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='28'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Борисовский монастырь'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac1.church.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 34,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.6095,36.06]},
+            "properties":
+                {
+                    "balloonContentHeader": "Памятник-самолет СУ-27<br><span class='description'>Памятник</span>",
+                    "balloonContent" : "Памятник",
+                    "balloonContentBody": "<img style='width:15em' src='/img/b6e32cdc-0ce0-4e85-9ac0-4a648b24d753.borisfly.jpg'></br><b>Памятник-самолет в Борисовке</b></br>Оценка: <b>0.0/5</b></br>Памятник установлен 4 октября 2012 года и посвящен памяти уроженцев Борисовского района – гвардии подполковнику А. В. Сыровому и гвардии полковнику С. Н. Климову.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='34'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Памятник-самолет СУ-27'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac5.monument.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 35,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.609,36.059]},
+            "properties":
+                {
+                    "balloonContentHeader": "Памятник танку Т-34<br><span class='description'>Памятник</span>",
+                    "balloonContent" : "Памятник",
+                    "balloonContentBody": "<img style='width:15em' src='/img/d3081054-eae9-40b8-97fd-00c3a287ce51.boristank.jpg'></br><b>Памятник танку Т-34</b></br>Оценка: <b>0.0/5</b></br>7 августа 2009 года в Борисовке на пьедестале был установлен танк Т-34. Боевую машину возвели на постамент в честь павших советских солдат на 66-й год со дня освобождения района.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='35'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Памятник танку Т-34'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac5.monument.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 36,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.5921,35.8686]},
+            "properties":
+                {
+                    "balloonContentHeader": "Хотмыжский музей<br><span class='description'>Музей</span>",
+                    "balloonContent" : "Музей",
+                    "balloonContentBody": "<img style='width:15em' src='/img/3587fc28-1aa1-4eef-9cd9-adf6d84b1ecd.hotmmuseum.jpg'></br><b>Хотмыжский музей</b></br>Оценка: <b>0.0/5</b></br>Основной целью музея является сохранение исторических ценностей, самобытной культуры населения, выявление и собирание музейных коллекций села.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='36'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Хотмыжский музей'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac2.museum.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 29,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.6114,35.9991]},
+            "properties":
+                {
+                    "balloonContentHeader": "'Лес на Ворскле'<br><span class='description'>Природа</span>",
+                    "balloonContent" : "Природа",
+                    "balloonContentBody": "<img style='width:15em' src='/img/1d98eb7c-bd54-485a-ad94-7c334928a75e.borzap.jpg'></br><b>Заповедник 'Лес на Ворскле'</b></br>Оценка: <b>0.0/5</b></br>Заповедник образован в 1924 году. Общая площадь заповедника – более тысячи гектаров. Большую часть земель занимают многовековые дубы, возраст некоторых из них достигает 300 лет.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='29'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "'Лес на Ворскле''"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac3.nature.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 37,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.5914,35.8719]},
+            "properties":
+                {
+                    "balloonContentHeader": "Воскресенская церковь<br><span class='description'>Храм</span>",
+                    "balloonContent" : "Храм",
+                    "balloonContentBody": "<img style='width:15em' src='/img/a56f2f47-27fd-43f5-89ba-37aab9a8b5b9.hotmchurch.jpg'></br><b>Храм Воскресения Христова в Хотмыжске</b></br>Оценка: <b>0.0/5</b></br>В Хотмыжске деревянный Вознесенская церковь появилась в 1640 году. В 1930-е в храме разрушили колокольню и колоннаду. Храм был закрыт до 1943 года, после чего он прослужил еще 30 лет.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='37'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Воскресенская церковь'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac1.church.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 38,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.6054,36.0326]},
+            "properties":
+                {
+                    "balloonContentHeader": "Памятник «Великий русский гончар»<br><span class='description'>Памятник</span>",
+                    "balloonContent" : "Памятник",
+                    "balloonContentBody": "<img style='width:15em' src='/img/71bea0b1-ff37-4cf1-b633-fce7b0de3f33.borkerpam.jpg'></br><b>Памятник «Великий русский гончар»</b></br>Оценка: <b>0.0/5</b></br>Скульптура под названием «Великий русский гончар» символична и многогранна. Она стала воплощением всего, что связано с профессией, которой издревле занимались борисовцы.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='38'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Памятник «Великий русский гончар»'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac5.monument.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 39,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.6079,36.0103]},
+            "properties":
+                {
+                    "balloonContentHeader": "ЦКР 'Борисовский'<br><span class='description'>Культурное наследие</span>",
+                    "balloonContent" : "Культурное наследие",
+                    "balloonContentBody": "<img style='width:15em' src='/img/53beb808-006f-4e78-a164-7931fa336e51.borDK.jpg'></br><b>Центр культурного развития 'Борисовский'</b></br>Оценка: <b>0.0/5</b></br>В 1961 году в поселке Борисовка был построен Дом культуры. На сегодняшний день здесь осуществляют свою деятельность 11 коллективов художественной самодеятельности, имеющих звание «Народный».",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='39'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "ЦКР 'Борисовский''"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fa44.cult.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 40,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.6081,36.0091]},
+            "properties":
+                {
+                    "balloonContentHeader": "Памятник Б.П. Шереметеву<br><span class='description'>Памятник</span>",
+                    "balloonContent" : "Памятник",
+                    "balloonContentBody": "<img style='width:15em' src='/img/4a05e8e3-bec0-4106-850a-8b295216a0cc.borsheremet.jpeg'></br><b>Памятник Б. П. Шереметеву</b></br>Оценка: <b>0.0/5</b></br>В 2009 году в Борисовке установлен памятник генералу-фельдмаршалу, белгородскому воеводе, сподвижнику Петра I Борису Петровичу Шереметеву. Благодаря Шереметеву и его потомкам вотчина разрасталась и процветала.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='40'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Памятник Б.П. Шереметеву'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac5.monument.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 42,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.6539,36.1829]},
+            "properties":
+                {
+                    "balloonContentHeader": "Покровская церковь<br><span class='description'>Храм</span>",
+                    "balloonContent" : "Храм",
+                    "balloonContentBody": "<img style='width:15em' src='/img/ab1b2554-9bef-46a6-9ba5-5bb1e33058fc.serchurch.jpg'></br><b>Церковь Покрова Пресвятой Богородицы</b></br>Оценка: <b>0.0/5</b></br>Новая кирпичная церковь, была построена в 2005-2007 годах на пожертвования меценатов, жителей Кустового и близлежащих деревень. Возле церкви выстроена небольшая арочная звонница.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='42'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Покровская церковь'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac1.church.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 43,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.5927,36.5754]},
+            "properties":
+                {
+                    "balloonContentHeader": "Церковь Гавриила Архангела<br><span class='description'>Храм</span>",
+                    "balloonContent" : "Храм",
+                    "balloonContentBody": "<img style='width:15em' src='/img/41b6e49a-7d56-48b2-b93a-2ada0b24422e.belguchurch.jpg'></br><b>Храм Архангела Гавриила</b></br>Оценка: <b>0.0/5</b></br>Храм Архангела Гавриила, построенный в Белгороде на Университетской площади, является домовым храмом Белгородского Государственного Университета. Небольшая, но очень красивая церковь стала духовной опорой для студентов.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='43'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Церковь Гавриила Архангела'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac1.church.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 44,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.5975,36.578]},
+            "properties":
+                {
+                    "balloonContentHeader": "Музей МВД<br><span class='description'>Музей</span>",
+                    "balloonContent" : "Музей",
+                    "balloonContentBody": "<img style='width:15em' src='/img/376916e9-9a55-4587-977b-0929121d1121.museumMVD.jpg'></br><b>Музей МВД</b></br>Оценка: <b>0.0/5</b></br>Музей был открыт в 2010 году. Внутри здания размещена экспозиция, научная концепция, разработанная Конновым Ю.В. На площадке возле музея расположены транспортные средства.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='44'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Музей МВД'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac2.museum.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 45,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.5928,36.5867]},
+            "properties":
+                {
+                    "balloonContentHeader": "Художественный музей<br><span class='description'>Музей</span>",
+                    "balloonContent" : "Музей",
+                    "balloonContentBody": "<img style='width:15em' src='/img/b41dd861-e43f-47f4-95c6-327f5f1be051.belhudmuseum.jpg'></br><b>Белгородский государственный художественный музей</b></br>Оценка: <b>0.0/5</b></br>Особенностью Белгородского государственного художественного музея является то, что в нем в основном представлено русское (советское) изобразительное искусство XX века",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='45'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Художественный музей'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac2.museum.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 46,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.5924,36.588]},
+            "properties":
+                {
+                    "balloonContentHeader": "Историко-краеведческий музей<br><span class='description'>Музей</span>",
+                    "balloonContent" : "Музей",
+                    "balloonContentBody": "<img style='width:15em' src='/img/eaca4f4e-d83c-4306-8a73-26a699a15da3.belkraed.jpg'></br><b>Белгородский государственный историко-краеведческий музей</b></br>Оценка: <b>0.0/5</b></br>Белгородский государственный историко-краеведческий музей – одно из старейших учреждений культуры области. Экспозиции освещают историю края с древнейших времен и до настоящего времени",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='46'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Историко-краеведческий музей'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac2.museum.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 47,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.5913,36.5878]},
+            "properties":
+                {
+                    "balloonContentHeader": "Музей-диорама 'Курская битва'<br><span class='description'>Музей</span>",
+                    "balloonContent" : "Музей",
+                    "balloonContentBody": "<img style='width:15em' src='/img/99ad1cb4-22b9-44b3-9268-cd21af7dd2d7.beldio.jpg'></br><b>Белгородский государственный историко-художественный музей-диорама «Курская битва. Белгородское направление»</b></br>Оценка: <b>0.0/5</b></br>Белгородский государственный историко-художественный музей-диорама «Курская битва. Белгородское направление» – главный военный музей Белгорода и его достопримечательность.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='47'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Музей-диорама 'Курская битва''"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac2.museum.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 48,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.5972,36.5608]},
+            "properties":
+                {
+                    "balloonContentHeader": "Опора ЛЭП 'Герб'<br><span class='description'>Культурное наследие</span>",
+                    "balloonContent" : "Культурное наследие",
+                    "balloonContentBody": "<img style='width:15em' src='/img/c54d6e76-73f0-4faa-8472-5fe0b61efb01.bellev.jpg'></br><b>Опора ЛЭП в виде герба Белгорода</b></br>Оценка: <b>0.0/5</b></br>В июле 2019 года, в преддверии Дня города, на берегу Везелки в районе Кашарского проезда установили опору ЛЭП. 26-метровая конструкция повторяет своей формой герб Белгорода – стоящего на задних лапах золотого льва и парящего над ним серебряного орла.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='48'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Опора ЛЭП 'Герб''"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fa44.cult.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 49,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.5944,36.587]},
+            "properties":
+                {
+                    "balloonContentHeader": "Драмтеатр<br><span class='description'>Культурное наследие</span>",
+                    "balloonContent" : "Культурное наследие",
+                    "balloonContentBody": "<img style='width:15em' src='/img/08409eb7-d303-428c-b2b3-2343249fa6e2.dramteatr.jpg'></br><b>Драматический театр имени М. С. Щепкина</b></br>Оценка: <b>0.0/5</b></br>Белгородский государственный академический драматический театр имени М. С. Щепкина ведет свою историю с 1936 года. Сегодня в театре работает талантливый творческий коллектив. С театром сотрудничают известные российские мастера режиссуры и сценографии.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='49'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Драмтеатр'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fa44.cult.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 50,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.5544,36.6419]},
+            "properties":
+                {
+                    "balloonContentHeader": "Белгородский зоопарк<br><span class='description'>Природа</span>",
+                    "balloonContent" : "Природа",
+                    "balloonContentBody": "<img style='width:15em' src='/img/243f8c5e-fa7f-4338-9b8e-22ae2c2a0e3b.belzoo.jpg'></br><b>Белгородский зоопарк</b></br>Оценка: <b>0.0/5</b></br>Новый Белгородский зоопарк был открыт 1 июня 2016 г. Площадка зоопарка разместилась в урочище Сосновка. Территория комплекса занимает 25 гектаров и вмещает 43 экспозиции для животных с просторными уличными выгулами и отапливаемыми помещениями для зимовки.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='50'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Белгородский зоопарк'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac3.nature.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 52,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.5954,36.5873]},
+            "properties":
+                {
+                    "balloonContentHeader": "Соборная площадь<br><span class='description'>Культурное наследие</span>",
+                    "balloonContent" : "Культурное наследие",
+                    "balloonContentBody": "<img style='width:15em' src='/img/8bfb2161-f531-4f3a-b304-89122f3bc10b.belsq.jpg'></br><b>Соборная площадь</b></br>Оценка: <b>0.0/5</b></br>Соборная площадь, более известная старшему поколению гостей города как площадь Революции. Здесь не только проводятся все знаковые мероприятия, но и именно сюда стекаются охватывающие самое интересное, что можно посмотреть в Белгороде.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='52'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Соборная площадь'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fa44.cult.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 53,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.5801,36.5838]},
+            "properties":
+                {
+                    "balloonContentHeader": "Памятник князю Владимиру<br><span class='description'>Памятник</span>",
+                    "balloonContent" : "Памятник",
+                    "balloonContentBody": "<img style='width:15em' src='/img/d692ca77-1b88-4da1-9106-566bd57161e6.belkn.jpg'></br><b>Памятник князю Владимиру</b></br>Оценка: <b>0.0/5</b></br>Памятник князю Владимиру воздвигли в Белгороде в 1998 году. Открытие было приурочено к 55-летию освобождения города от немецко-фашистской оккупации.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='53'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Памятник князю Владимиру'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac5.monument.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 54,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.5919,36.5846]},
+            "properties":
+                {
+                    "balloonContentHeader": "Памятник Жукову<br><span class='description'>Памятник</span>",
+                    "balloonContent" : "Памятник",
+                    "balloonContentBody": "<img style='width:15em' src='/img/fbf35ad5-e401-46c2-a31d-b323e558a6e0.belzh.jpg'></br><b>Памятник Жукову Г.К.</b></br>Оценка: <b>0.0/5</b></br>Памятник Жукову в Белгороде был открыт 5 августа 1998 года. Он занимает центральное место в Парке Победы. Памятник представляет собой бюст Георгия Константиновича Жукова, возвышающийся на колонне.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='54'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Памятник Жукову'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac5.monument.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 55,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.5985,36.5884]},
+            "properties":
+                {
+                    "balloonContentHeader": "Преображенский собор<br><span class='description'>Храм</span>",
+                    "balloonContent" : "Храм",
+                    "balloonContentBody": "<img style='width:15em' src='/img/686546b6-9daa-4fa0-9a6a-1ffb68b6c911.belpreobr.jpg'></br><b>Преображенский собор</b></br>Оценка: <b>0.0/5</b></br>В 1813 году, на месте старой деревянной церкви, был построен новый каменный храм. Его спроектировал архитектор Евгений Васильев, а строили церковь на средства прихожан.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='55'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Преображенский собор'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac1.church.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 56,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.6103,36.5802]},
+            "properties":
+                {
+                    "balloonContentHeader": "Памятник жертвам Чернобыля<br><span class='description'>Музей</span>",
+                    "balloonContent" : "Музей",
+                    "balloonContentBody": "<img style='width:15em' src='/img/75b34958-2380-44ab-8d59-24a99b65e871.belchs.jpg'></br><b>Памятник жертвам Чернобыля</b></br>Оценка: <b>0.0/5</b></br>В 1998 году памятник был установлен практически в центре города – на проспекте Богдана Хмельницкого около Белгородского индустриального колледжа. Монумент сделан в виде человека, закрывающего ворота, в которых находится расщепляющийся атом.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='56'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Памятник жертвам Чернобыля'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac2.museum.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 57,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.6424,36.6093]},
+            "properties":
+                {
+                    "balloonContentHeader": "Монастырский лес<br><span class='description'>Природа</span>",
+                    "balloonContent" : "Природа",
+                    "balloonContentBody": "<img style='width:15em' src='/img/f4a8a18a-bfe6-497b-9ea4-d17b548a7c94.belles.jpg'></br><b>Монастырский лес</b></br>Оценка: <b>0.0/5</b></br>Старейшее название Монастырского леса – Винокуренный лог – было датировано в XVIII веке. Сейчас в Монастырском лесу создан заповедник. Здесь охраняют редкие виды растений и животных.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='57'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Монастырский лес'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac3.nature.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 58,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.5931,36.5483]},
+            "properties":
+                {
+                    "balloonContentHeader": "Ботанический сад<br><span class='description'>Природа</span>",
+                    "balloonContent" : "Природа",
+                    "balloonContentBody": "<img style='width:15em' src='/img/fb66e1b4-c15f-43a0-baeb-d5dc38914f05.belbot.png'></br><b>Ботанический сад Белгородского Государственного Университета</b></br>Оценка: <b>0.0/5</b></br>Ботанический сад создан в 1999 году при Белгородском государственном университете. На территории более 71 га собрана коллекция реликтовых, лекарственных, редких и исчезающих растений, занесенных в Красную и Зеленую книги России и Белгородской области.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='58'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Ботанический сад'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac3.nature.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 61,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.601,36.5862]},
+            "properties":
+                {
+                    "balloonContentHeader": "Солнечные часы<br><span class='description'>Скульптура</span>",
+                    "balloonContent" : "Скульптура",
+                    "balloonContentBody": "<img style='width:15em' src='/img/3500404a-0c74-4474-b38d-84d8d205e532.belsoln.jpg'></br><b>Cкульптурная композиция 'Солнечные часы'</b></br>Оценка: <b>0.0/5</b></br>Скульптуру установили в 2008 году – к 65-летию освобождения Белгорода от фашистско-немецких захватчиков. Автором композиции стал скульптор Тарас Костенко.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='61'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Солнечные часы'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac4.sculpture.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 62,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.6249,36.5719]},
+            "properties":
+                {
+                    "balloonContentHeader": "Музей троллейбусов<br><span class='description'>Музей</span>",
+                    "balloonContent" : "Музей",
+                    "balloonContentBody": "<img style='width:15em' src='/img/6f055c2e-cfab-42be-8ed2-c4b92e3eb95e.beltrol.jpg'></br><b>Музей троллейбусов</b></br>Оценка: <b>0.0/5</b></br>Чтобы сохранить бесценные экспонаты троллейбусов для следующих поколений был открыт Музей троллейбусов. Музей хранит немало интересных раритетов.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='62'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Музей троллейбусов'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac2.museum.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 63,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.5729,36.5713]},
+            "properties":
+                {
+                    "balloonContentHeader": "Софийская церковь<br><span class='description'>Храм</span>",
+                    "balloonContent" : "Храм",
+                    "balloonContentBody": "<img style='width:15em' src='/img/bc339fb9-e22d-420b-a99d-18b36e0152af.belder.jpg'></br><b>Храм Веры, Надежды, Любови и матери их Софии</b></br>Оценка: <b>0.0/5</b></br>Величественное сооружение, состоящее из семнадцати куполов, входящее в храмовый комплекс является великой святыней и достопримечательностью Белгорода.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='63'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Софийская церковь'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac1.church.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 64,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.5081,36.6492]},
+            "properties":
+                {
+                    "balloonContentHeader": "Пикник-парк<br><span class='description'>Природа</span>",
+                    "balloonContent" : "Природа",
+                    "balloonContentBody": "<img style='width:15em' src='/img/c1aefd24-4bef-4e15-a943-abe8c68d2e74.belpicknic.jpg'></br><b>Пикник-парк</b></br>Оценка: <b>0.0/5</b></br>Парк находится рядом в селом Соломино на берегу Белгородского водохранилища. Добираться сюда удобнее всего на машине. Это благоустроенная зона отдыха с развитой инфраструктурой.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='64'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Пикник-парк'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac3.nature.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 65,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.4852,35.6676]},
+            "properties":
+                {
+                    "balloonContentHeader": "Дворец культуры и спорта<br><span class='description'>Культурное наследие</span>",
+                    "balloonContent" : "Культурное наследие",
+                    "balloonContentBody": "<img style='width:15em' src='/img/3c80eab1-0437-4ce4-8a77-bd6c67aa06af.graydk.jpg'></br><b>Дворец культуры и спорта г. Грайворон</b></br>Оценка: <b>0.0/5</b></br>Дворец культуры и спорта – это современное комплексное здание открытое в 2005 году. Располагается в самом сердце города Грайворона – на центральной площади.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='65'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Дворец культуры и спорта'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fa44.cult.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 66,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.487,35.6676]},
+            "properties":
+                {
+                    "balloonContentHeader": "Часовня во имя святителя Иоасафа Белгородского<br><span class='description'>Храм</span>",
+                    "balloonContent" : "Храм",
+                    "balloonContentBody": "<img style='width:15em' src='/img/eaf9686d-18a1-4ed3-a3a0-9dc27468b996.graychas.png'></br><b>Часовня во имя святителя Иоасафа Белгородского</b></br>Оценка: <b>0.0/5</b></br>В Грайвороне неподалеку от Центральной площади построена часовня в честь покровителя Белгородчины – святителя Иосафа. Храм-часовня был воздвигнут в месте, где скончался Архиеписком Иоанн",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='66'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Часовня во имя святителя Иоасафа Белгородского'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac1.church.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 67,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.6047,37.7801]},
+            "properties":
+                {
+                    "balloonContentHeader": "Баркова мельница<br><span class='description'>Культурное наследие</span>",
+                    "balloonContent" : "Культурное наследие",
+                    "balloonContentBody": "<img style='width:15em' src='/img/7e523d8c-c927-4600-8d66-278ff47dc00f.volmel.jpg'></br><b>Баркова мельница</b></br>Оценка: <b>0.0/5</b></br>Шестиэтажное строение построено в XIX веке без единого гвоздя – все сшито деревянными шпонами. В 1914 году мельницу выиграл в карты купец Михаил Барков и перевез ее из села Погромец в Новоивановку.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='67'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Баркова мельница'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fa44.cult.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 68,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.4767,37.8221]},
+            "properties":
+                {
+                    "balloonContentHeader": "Ботанический заказник «Священная гора»<br><span class='description'>Природа</span>",
+                    "balloonContent" : "Природа",
+                    "balloonContentBody": "<img style='width:15em' src='/img/e3b39741-8e02-4b00-be64-fed27d898bd8.volprir.jpg'></br><b>Ботанический заказник «Священная гора»</b></br>Оценка: <b>0.0/5</b></br>Ботанический заказник «Священная гора» является объектом природного наследия региона. Охраняемая территория занимает около пяти гектаров. Центральной частью заказника является меловой холм.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='68'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Ботанический заказник «Священная гора»'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac3.nature.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 70,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.3594,37.9284]},
+            "properties":
+                {
+                    "balloonContentHeader": "Усадьба Времева<br><span class='description'>Памятник</span>",
+                    "balloonContent" : "Памятник",
+                    "balloonContentBody": "<img style='width:15em' src='/img/7555c4e5-b280-4588-8dbc-a34b19d58f7a.volus.jpg'></br><b>Усадьба Времева в Голофеевке</b></br>Оценка: <b>0.0/5</b></br>Усадьба представляет собой небольшой дом, принадлежавший помещику Тимофею Мироновичу Времеву с конца XVIII по тридцатые годы XIХ века.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='70'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Усадьба Времева'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac5.monument.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 71,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.4703,37.8473]},
+            "properties":
+                {
+                    "balloonContentHeader": "Памятник-самолет<br><span class='description'>Памятник</span>",
+                    "balloonContent" : "Памятник",
+                    "balloonContentBody": "<img style='width:15em' src='/img/4a0bf3d0-fb7a-4f20-bade-a1f6fae2588e.volsam.jpg'></br><b>Памятник-самолет в Волоконовке</b></br>Оценка: <b>0.0/5</b></br>Его возвели в 1983 году к 40-летнему юбилею Победы. Скульптуру создали харьковские архитекторы. На высокую стелу, которая напоминает взлетную полосу, они установили МиГ-21ПФ.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='71'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Памятник-самолет'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac5.monument.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 72,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.413,36.8924]},
+            "properties":
+                {
+                    "balloonContentHeader": "Шебекинский дворец культуры<br><span class='description'>Культурное наследие</span>",
+                    "balloonContent" : "Культурное наследие",
+                    "balloonContentBody": "<img style='width:15em' src='/img/388b9db2-5770-40a9-bc0a-8d6db08d00a7.shebdk.jpg'></br><b>Шебекинский дворец культуры</b></br>Оценка: <b>0.0/5</b></br>Дворец культуры «Химик» был открыт в 1957 году. Во Дворце культуры 18 «Народных (образцовых) коллективов», которые являются гордостью и ярким примером для многих коллективов художественной самодеятельности.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='72'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Шебекинский дворец культуры'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fa44.cult.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 73,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.4429,36.972]},
+            "properties":
+                {
+                    "balloonContentHeader": "Урочище «Бор на мелу»<br><span class='description'>Природа</span>",
+                    "balloonContent" : "Природа",
+                    "balloonContentBody": "<img style='width:15em' src='/img/aafafe3b-a5b5-4b21-89f1-02da769f6714.shebmel.jpg'></br><b>Урочище «Бор на мелу»</b></br>Оценка: <b>0.0/5</b></br>Так здесь называются места компактного произрастания меловой сосны, и расположены они на куполообразных меловых холмах. ",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='73'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Урочище «Бор на мелу»'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac3.nature.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 74,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.8833,36.3774]},
+            "properties":
+                {
+                    "balloonContentHeader": "Мемориал<br><span class='description'>Музей</span>",
+                    "balloonContent" : "Музей",
+                    "balloonContentBody": "<img style='width:15em' src='/img/4a18ac9a-b255-443d-b131-728416c67c32.yakmem.jpg'></br><b>Мемориал «В честь героев Курской битвы»</b></br>Оценка: <b>0.0/5</b></br>Комплекс включает: танк «Т-34», стилобат, зал боевой славы, обелиск, макет боевого самолета, огневые позиции, могилу артиллеристов, 76-мм пушку «ЗИС-3», часовню и Вечный огонь.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='74'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Мемориал'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac2.museum.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 75,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.706,36.5944]},
+            "properties":
+                {
+                    "balloonContentHeader": "Покровский храм<br><span class='description'>Храм</span>",
+                    "balloonContent" : "Храм",
+                    "balloonContentBody": "<img style='width:15em' src='/img/effac5f4-3197-4c73-81ac-691094b81238.yakchurch.jpg'></br><b>Храм Покрова Пресвятой Богородицы в Шопино</b></br>Оценка: <b>0.0/5</b></br>Данное культовое сооружение в 2015 году отметило 200 лет со дня основания. Храм являет собой не только духовную ценность в православном мире, но так же является памятником архитектуры.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='75'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Покровский храм'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac1.church.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 76,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.8544,36.4588]},
+            "properties":
+                {
+                    "balloonContentHeader": "Ветряная мельница<br><span class='description'>Памятник</span>",
+                    "balloonContent" : "Памятник",
+                    "balloonContentBody": "<img style='width:15em' src='/img/47149b98-28e1-4b25-b9a7-b3d49a2226e0.yakmel.jpg'></br><b>Ветряная мельница в Яковлево</b></br>Оценка: <b>0.0/5</b></br>Ветряная мельница в Яковлево установлена в 1998 году. Сотрудники музея реконструировали только деревянную часть ветряка, а жернова поставили оригинальные.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='76'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Ветряная мельница'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac5.monument.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 77,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.81,36.5356]},
+            "properties":
+                {
+                    "balloonContentHeader": "Дом культуры<br><span class='description'>Культурное наследие</span>",
+                    "balloonContent" : "Культурное наследие",
+                    "balloonContentBody": "<img style='width:15em' src='/img/cfe488be-64c2-40f2-98e9-c3b52ac2f17b.yakdk.jpeg'></br><b>Дом культуры с. Смородино</b></br>Оценка: <b>0.0/5</b></br>Дом культуры построен в 1975 году. На базе ДК работают 7 коллективов.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='77'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Дом культуры'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fa44.cult.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 79,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.8635,37.7533]},
+            "properties":
+                {
+                    "balloonContentHeader": "Холковский монастырь<br><span class='description'>Храм</span>",
+                    "balloonContent" : "Храм",
+                    "balloonContentBody": "<img style='width:15em' src='/img/d47a6fe5-c205-41f2-be1b-d66195754d86.chermon.jpg'></br><b>Холковский монастырь</b></br>Оценка: <b>0.0/5</b></br>Датой основания Свято-Троицкого Холковского монастыря считается 1620 год. Монахи жили и молились прямо в пещерах – на поверхности были только надвратная церковь, тогда деревянная, и хозяйственные постройки.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='79'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Холковский монастырь'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac1.church.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 80,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.9332,38.1467]},
+            "properties":
+                {
+                    "balloonContentHeader": "Памятник Волоту<br><span class='description'>Памятник</span>",
+                    "balloonContent" : "Памятник",
+                    "balloonContentBody": "<img style='width:15em' src='/img/b3e24482-a80b-4284-80fb-c0d2ae265a74.chervol.jpg'></br><b>Памятник Волоту</b></br>Оценка: <b>0.0/5</b></br>Старинный памятник Волоту – объект эстетического восприятия. Навечно прикрепленный к земле могучий  каменный великан олицетворяет нерушимость и мощь великого понятия Родина.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='80'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Памятник Волоту'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac5.monument.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 81,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.286,38.3078]},
+            "properties":
+                {
+                    "balloonContentHeader": "Дом-музей<br><span class='description'>Музей</span>",
+                    "balloonContent" : "Музей",
+                    "balloonContentBody": "<img style='width:15em' src='/img/ab25530d-f1c0-4aab-bf4e-248072ac8781.valmuseum.jpg'></br><b>Дом-музей генерала армии Н. Ф. Ватутина</b></br>Оценка: <b>0.0/5</b></br>Экспозиции, созданные в доме-музее, размещаются в четырёх комнатах. В основу экспозиции были заложены историко-хронологический и комплексно-тематический принципы.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='81'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Дом-музей'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac2.museum.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 82,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.1791,38.073]},
+            "properties":
+                {
+                    "balloonContentHeader": "Пещерный монастырь<br><span class='description'>Храм</span>",
+                    "balloonContent" : "Храм",
+                    "balloonContentBody": "<img style='width:15em' src='/img/261dcc47-d3a3-4c96-901a-ac5ce879e658.valpesh.jpg'></br><b>Пещерный монастырь Игнатия Богоносца</b></br>Оценка: <b>0.0/5</b></br>Монастырь Игнатия Богоносца обустроен в меловой горе за рекой Оскол. Храм представляет собой сеть пещер протяженностью свыше 600 метров. Их высота достигает 3 метров, а ширина 89 сантиметров.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='82'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Пещерный монастырь'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac1.church.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 83,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.1373,37.9824]},
+            "properties":
+                {
+                    "balloonContentHeader": "Новый Иерусалим<br><span class='description'>Музей</span>",
+                    "balloonContent" : "Музей",
+                    "balloonContentBody": "<img style='width:15em' src='/img/e80ad66f-9f54-47a0-90bd-c0f39c72e536.valierus.png'></br><b>Новый Иерусалим</b></br>Оценка: <b>0.0/5</b></br>Уникальная достопримечательность Новый Иерусалим являет собой репродукцию библейского Иерусалима. Храмовый комплекс Новый Иерусалим в Валуйках обнесен бревенчатым забором с заточенными кольями, а вход украшают святые Входные врата.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='83'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Новый Иерусалим'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac2.museum.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 84,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [51.2817,37.6281]},
+            "properties":
+                {
+                    "balloonContentHeader": "Лебединский ГОК<br><span class='description'>Природа</span>",
+                    "balloonContent" : "Природа",
+                    "balloonContentBody": "<img style='width:15em' src='/img/76a55999-6b94-4a73-a78f-88d8c1e8443f.leb.jpg'></br><b>Лебединский ГОК</b></br>Оценка: <b>0.0/5</b></br>Лебединский горно-обогатительный комбинат – одно из самых больших предприятий в России по добыче и обогащению железной руды и производству высококачественного сырья для черной металлургии.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='84'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Лебединский ГОК'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac3.nature.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 85,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [51.26,37.5325]},
+            "properties":
+                {
+                    "balloonContentHeader": "Музей истории Курской магнитной аномалии<br><span class='description'>Музей</span>",
+                    "balloonContent" : "Музей",
+                    "balloonContentBody": "<img style='width:15em' src='/img/46e2cef0-75c8-4c92-9276-e895937631d0.gubanom.jpg'></br><b>Музей истории Курской магнитной аномалии</b></br>Оценка: <b>0.0/5</b></br>В 2011 году Губернатор Белгородской области Е. С. Савченко выступил с инициативой организации Музея истории КМА в здании бывшей школы № 10. Это историческое здание является памятником регионального значения.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='85'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Музей истории Курской магнитной аномалии'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac2.museum.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 86,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.479,36.6534]},
+            "properties":
+                {
+                    "balloonContentHeader": "«Муромский лес»<br><span class='description'>Природа</span>",
+                    "balloonContent" : "Природа",
+                    "balloonContentBody": "<img style='width:15em' src='/img/dffc2f83-cc61-43ab-98d0-626fba9acb7a.belmur.jpg'></br><b>Природный парк «Муромский лес»</b></br>Оценка: <b>0.0/5</b></br>Общая площадь парка – более 500 гектаров. В парке пешеходные тропинки, детские площадки, оздоровительный маршрут «Босая тропа», обустроены вольеры для животных – ланей, косуль и, возможно, муфлонов.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='86'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "«Муромский лес»'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac3.nature.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 88,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.5082,36.639]},
+            "properties":
+                {
+                    "balloonContentHeader": "Памятник Маресевой Зинаиде Ивановне<br><span class='description'>Памятник</span>",
+                    "balloonContent" : "Памятник",
+                    "balloonContentBody": "<img style='width:15em' src='/img/f425242d-3aaa-4c62-a6e2-7d69aa5f6cb9.belmzi.jpg'></br><b>Памятник Маресевой Зинаиде Ивановне</b></br>Оценка: <b>0.0/5</b></br>Открыт 3 ноября 2011 года в честь Зинаиды Ивановны Маресевой. Пилон белого цвета стоит на небольшой площадке, с четырех сторон которой размещаются каменные шары. В середине помещен барельеф с изображением девушки.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='88'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Памятник Маресевой Зинаиде Ивановне'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac5.monument.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 89,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.6639,36.3838]},
+            "properties":
+                {
+                    "balloonContentHeader": "Исторический парк «Белгородская черта»<br><span class='description'>Музей</span>",
+                    "balloonContent" : "Музей",
+                    "balloonContentBody": "<img style='width:15em' src='/img/614cdeb7-c1c7-4515-8bc5-8077a3d9c889.belchert.jpeg'></br><b>Исторический парк «Белгородская черта»</b></br>Оценка: <b>0.0/5</b></br>Историчекий парк представляет собой собирательный образ конкретной территории, в частности территории Белгородской черты XVII– VIII веков.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='89'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Исторический парк «Белгородская черта»'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac2.museum.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 90,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.673,36.2359]},
+            "properties":
+                {
+                    "balloonContentHeader": "Сырный дом<br><span class='description'>Музей</span>",
+                    "balloonContent" : "Музей",
+                    "balloonContentBody": "<img style='width:15em' src='/img/effb699c-8b7d-493a-991b-7e5ec3cb36d4.tomsir.jpg'></br><b>Сырный дом</b></br>Оценка: <b>0.0/5</b></br>Музей сыра работает с 2008 года, территориально находится в поселке Томаровка. Здесь все посвящено сыру. Главная цель проекта заключалась в расширении знаний населения о полезном и необходимом для организма молочном продукте.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='90'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Сырный дом'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac2.museum.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 91,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.7783,36.4898]},
+            "properties":
+                {
+                    "balloonContentHeader": "Парк «Маршалково»<br><span class='description'>Природа</span>",
+                    "balloonContent" : "Природа",
+                    "balloonContentBody": "<img style='width:15em' src='/img/2fbd80ee-1710-47ba-b185-cfb1ccdca1d3.marsh.jpg'></br><b>Парк «Маршалково»</b></br>Оценка: <b>0.0/5</b></br>Парк «Маршалково» занимает большую территорию в 311 га, из них облагорожено только около 2 га. Лес, где разбит парк существовал еще с древних времен.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='91'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Парк «Маршалково»'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac3.nature.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 92,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.7864,36.4903]},
+            "properties":
+                {
+                    "balloonContentHeader": "Историко-краеведческий музей<br><span class='description'>Музей</span>",
+                    "balloonContent" : "Музей",
+                    "balloonContentBody": "<img style='width:15em' src='/img/74425f6f-f2f1-4d6b-8ca6-c4a9ac9de82d.yakmus.jpg'></br><b>Историко-краеведческий музей Яковлевского городского округа</b></br>Оценка: <b>0.0/5</b></br>В историко-краеведческом музее Яковлевского городского округа можно познакомиться с символикой городского округа и области, узнать об истории создания района и в последствии городского округа.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='92'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Историко-краеведческий музей'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac2.museum.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 93,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.7858,36.5005]},
+            "properties":
+                {
+                    "balloonContentHeader": "Сретенская церковь<br><span class='description'>Храм</span>",
+                    "balloonContent" : "Храм",
+                    "balloonContentBody": "<img style='width:15em' src='/img/b936c04f-9013-4719-a6f9-c69b200dc1f9.yakhram.jpg'></br><b>Храм Сретения Господня</b></br>Оценка: <b>0.0/5</b></br>Храм был построен за короткий срок – первый камень заложили в 1993 году, а первая служба в нем состоялась уже на Светлую седмицу 1994 года. ",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='93'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Сретенская церковь'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac1.church.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 97,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.3903,36.8511]},
+            "properties":
+                {
+                    "balloonContentHeader": "Тихвинская церковь<br><span class='description'>Храм</span>",
+                    "balloonContent" : "Храм",
+                    "balloonContentBody": "<img style='width:15em' src='/img/317fbbf1-3cf7-41f0-b1a7-a8870d95cb51.shebchurch.jpg'></br><b>Храм Тихвинской иконы Божией Матери</b></br>Оценка: <b>0.0/5</b></br> Тихвинский храм – святилище, история возведения которого началась с 1792 года. Спустя много лет здесь возвели каменный храм, а в сентябре 2012 святыня была торжественно открыта и освящена.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='97'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Тихвинская церковь'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac1.church.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 98,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.515,36.8316]},
+            "properties":
+                {
+                    "balloonContentHeader": "«Кореньские родники»<br><span class='description'>Природа</span>",
+                    "balloonContent" : "Природа",
+                    "balloonContentBody": "<img style='width:15em' src='/img/8a4b0318-b2b1-4fe0-842b-b1ea2ed46866.koren.png'></br><b>Экопоселение «Кореньские родники»</b></br>Оценка: <b>0.0/5</b></br>«Кореньские родники» - экологическое поселение, в которых люди живут, не нанося ущерба природе, используя технологии, которыми пользовались предки.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='98'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "«Кореньские родники»'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac3.nature.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 99,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.585,36.6535]},
+            "properties":
+                {
+                    "balloonContentHeader": "Музей мороженого<br><span class='description'>Музей</span>",
+                    "balloonContent" : "Музей",
+                    "balloonContentBody": "<img style='width:15em' src='/img/b1a2cf73-d8f0-4b4a-a216-6386d9ab765e.musmor.jpg'></br><b>Музей мороженого</b></br>Оценка: <b>0.0/5</b></br>Интерактивный музей, работающий при Белгородском хладокомбинате. Чтобы попасть туда, необходимо предварительно записаться в группу, одиночное и даже семейное посещение не предусмотрено из соображений безопасности на предприятии.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='99'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Музей мороженого'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac2.museum.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 95,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.454,36.4853]},
+            "properties":
+                {
+                    "balloonContentHeader": "Пруд Байкал<br><span class='description'>Природа</span>",
+                    "balloonContent" : "Природа",
+                    "balloonContentBody": "<img style='width:15em' src='/img/21ab9ba5-99ca-416b-9e8c-51b84dd62bf5.baikal.jpg'></br><b>Пруд Байкал</b></br>Оценка: <b>0.0/5</b></br>Свое громкое имя водоем получил за чистоту воды, достаточно большую глубину и форму, которая несколько схожа с той, что есть у знаменитого озера, расположенного в Восточной Сибири.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='95'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Пруд Байкал'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac3.nature.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 101,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.9391,38.367]},
+            "properties":
+                {
+                    "balloonContentHeader": "Дуб-долгожитель<br><span class='description'>Природа</span>",
+                    "balloonContent" : "Природа",
+                    "balloonContentBody": "<img style='width:15em' src='/img/7cdba7d8-7d66-4a3a-b5e9-677ec5041415.dub.jpg'></br><b>Дуб-долгожитель х. Старый Редкодуб</b></br>Оценка: <b>0.0/5</b></br>Местные жители оберегают дуб и считают его одной из главных достопримечательностей хутора. Дуб-долгожитель в Красненском районе относится к памятникам природы регионального значения.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='101'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Дуб-долгожитель'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac3.nature.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 103,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [51.0428,36.7493]},
+            "properties":
+                {
+                    "balloonContentHeader": "«Прохоровское поле»<br><span class='description'>Музей</span>",
+                    "balloonContent" : "Музей",
+                    "balloonContentBody": "<img style='width:15em' src='/img/6b011e67-0df1-456c-bed4-84dec5825459.proh.jpg'></br><b>Государственный военно-исторический музей-заповедник «Прохоровское поле»</b></br>Оценка: <b>0.0/5</b></br>Музей-заповедник был открыт в 1995 г. Мемориальный комплекс на танковом поле представляет собой обширную благоустроенную территорию с расположенными на ней мемориальными сооружениями и памятниками.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='103'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "«Прохоровское поле»'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac2.museum.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 104,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [51.0379,36.5406]},
+            "properties":
+                {
+                    "balloonContentHeader": "«Ключи»<br><span class='description'>Природа</span>",
+                    "balloonContent" : "Природа",
+                    "balloonContentBody": "<img style='width:15em' src='/img/bb76a281-83f8-4cf9-8e8b-76fbfed29763.klych.jpg'></br><b>Парк регионального значения «Ключи»</b></br>Оценка: <b>0.0/5</b></br>Когда-то эта территория была барской усадьбой Константина Альбертовича Питры. Парк регионального значения «Ключи» торжественно открылся 7 ноября 2010 года.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='104'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "«Ключи»'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac3.nature.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 105,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [51.0517,36.6991]},
+            "properties":
+                {
+                    "balloonContentHeader": "Наблюдательный пункт генерала П. А. Ротмистрова<br><span class='description'>Памятник</span>",
+                    "balloonContent" : "Памятник",
+                    "balloonContentBody": "<img style='width:15em' src='/img/fe23274f-f589-49d0-b556-332b8c4e6612.smotr.jpg'></br><b>Наблюдательный пункт генерала П. А. Ротмистрова</b></br>Оценка: <b>0.0/5</b></br>Здесь генерал П. А. Ротмистров лично руководил своей пятой танковой армией, которая принимала участие в битве на Прохоровском поле и держала оборону в составе Воронежского фронта.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='105'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Наблюдательный пункт генерала П. А. Ротмистрова'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac5.monument.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 106,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [51.0336,36.7274]},
+            "properties":
+                {
+                    "balloonContentHeader": "Братская могила и мемориал «Вечный огонь»<br><span class='description'>Памятник</span>",
+                    "balloonContent" : "Памятник",
+                    "balloonContentBody": "<img style='width:15em' src='/img/1eee567d-2ec6-4c74-8537-b0f505c9f31f.mem.jpg'></br><b>Братская могила и мемориал «Вечный огонь»</b></br>Оценка: <b>0.0/5</b></br>Братская могила советских воинов и мемориал «Вечный огонь». В 1950 году сюда были перенесены остатки воинов из хуторов Мордовки, Кусты, Ямки, Лутово, Липовка, Тихая Падина и других.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='106'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Братская могила и мемориал «Вечный огонь»'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac5.monument.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 107,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.9129,36.8653]},
+            "properties":
+                {
+                    "balloonContentHeader": "Меловые обнажения в Прохоровском районе<br><span class='description'>Природа</span>",
+                    "balloonContent" : "Природа",
+                    "balloonContentBody": "<img style='width:15em' src='/img/3313c8be-0b82-494d-8ee2-3f510fd53912.mel.jpg'></br><b>Меловые обнажения в Прохоровском районе</b></br>Оценка: <b>0.0/5</b></br>Здесь растут редкие реликтовые растения, которые сохранились от ледниковой эпохи, – астрагалы, лен желтый и украинский, оносма простейшая, ковыли, смолевка меловая, копеечник крупноцветковый, проломник Козо-Полянского и другие.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='107'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Меловые обнажения в Прохоровском районе'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac3.nature.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 108,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.9051,36.8665]},
+            "properties":
+                {
+                    "balloonContentHeader": "Сосновый бор<br><span class='description'>Природа</span>",
+                    "balloonContent" : "Природа",
+                    "balloonContentBody": "<img style='width:15em' src='/img/1590c58b-ad6d-42bb-909f-2b7d7e9d8073.sos.jpg'></br><b>Сосновый бор села Авдеевка</b></br>Оценка: <b>0.0/5</b></br>Бор, интересен тем, что деревья там растут на меловых склонах. Его посадили в 70-е годы XX века: деревья с тех пор выросли от трех до четырех метров высотой.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='108'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Сосновый бор'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac3.nature.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 109,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.8342,35.8338]},
+            "properties":
+                {
+                    "balloonContentHeader": "Усадьба Юсуповых<br><span class='description'>Музей</span>",
+                    "balloonContent" : "Музей",
+                    "balloonContentBody": "<img style='width:15em' src='/img/50208542-3e89-4bcb-9585-e25632821752.yusup.png'></br><b>Усадьба Юсуповых</b></br>Оценка: <b>0.0/5</b></br>Дворец в поселке Ракитное построил князь Борис Юсупов в 1840 году. Его семье около 200 лет принадлежала значительная часть современных ракитянских земель.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='109'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Усадьба Юсуповых'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac2.museum.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 110,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.8324,35.8218]},
+            "properties":
+                {
+                    "balloonContentHeader": "Усадьба-музей истории и культуры<br><span class='description'>Музей</span>",
+                    "balloonContent" : "Музей",
+                    "balloonContentBody": "<img style='width:15em' src='/img/ae23d0d3-8d7e-4db4-9f74-404fd7e5ad69.bors.jpg'></br><b>Усадьба-музей истории и культуры Ракитянского района А. И. Борисенко</b></br>Оценка: <b>0.0/5</b></br>Борисенко А.И. начал собирать коллекцию, которая стала основой музейной экспозиции, еще в 1981 году, а дом был заложен в 1971-м.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='110'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Усадьба-музей истории и культуры'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac2.museum.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 111,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.8284,35.8393]},
+            "properties":
+                {
+                    "balloonContentHeader": "Свято-Никольский храм<br><span class='description'>Храм</span>",
+                    "balloonContent" : "Храм",
+                    "balloonContentBody": "<img style='width:15em' src='/img/3141280c-9b49-47bb-b90a-893862950798.rakchurch.jpg'></br><b>Свято-Никольский храм п. Ракитное</b></br>Оценка: <b>0.0/5</b></br>Он был построен в 1832 году, во времена правления князя Б. Н. Юсупова. Свято-Никольский храм возведен в честь святого Николая Угодника. ",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='111'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Свято-Никольский храм'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac1.church.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 112,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.8606,37.3684]},
+            "properties":
+                {
+                    "balloonContentHeader": "Город-крепость «Яблонов»<br><span class='description'>Музей</span>",
+                    "balloonContent" : "Музей",
+                    "balloonContentBody": "<img style='width:15em' src='/img/4a498853-6523-4b98-ae62-bd17832c71c2.yablo.jpeg'></br><b>Город-крепость «Яблонов»</b></br>Оценка: <b>0.0/5</b></br>Крепость воссоздана в традициях строительства фортификационных сооружений XVII в. Общая площадь застройки составляет около 1 300 кв. м.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='112'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Город-крепость «Яблонов»'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac2.museum.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 113,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.8107,37.1951]},
+            "properties":
+                {
+                    "balloonContentHeader": "Памятник Андрею Васильевичу Бутурлину<br><span class='description'>Памятник</span>",
+                    "balloonContent" : "Памятник",
+                    "balloonContentBody": "<img style='width:15em' src='/img/2a019ebf-2e94-466c-ae9e-0a6bc6041a3b.butur.jpg'></br><b>Памятник Андрею Васильевичу Бутурлину</b></br>Оценка: <b>0.0/5</b></br>Бутурлин держит свой меч острием вниз: это знак, что полк под его предводительством не завоевывает, а защищает. Воины за его спиной держат свои копья острием кверху – они на страже, в любой момент готовы к бою.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='113'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Памятник Андрею Васильевичу Бутурлину'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac5.monument.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 114,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.825,37.2023]},
+            "properties":
+                {
+                    "balloonContentHeader": "«Белая гора»<br><span class='description'>Природа</span>",
+                    "balloonContent" : "Природа",
+                    "balloonContentBody": "<img style='width:15em' src='/img/9c013c5c-7d34-42c1-aa56-24d75a775f7c.belgor.jpg'></br><b>Ботанический заказник «Белая гора»</b></br>Оценка: <b>0.0/5</b></br>Это райский уголок, который объявлен государством как особо охраняемый. Флора этого места насчитывает 189 видов редчайших растений.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='114'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "«Белая гора»'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac3.nature.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 115,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.8218,37.0355]},
+            "properties":
+                {
+                    "balloonContentHeader": "«Новая Слободка»<br><span class='description'>Природа</span>",
+                    "balloonContent" : "Природа",
+                    "balloonContentBody": "<img style='width:15em' src='/img/44b325a4-b2d7-4fe0-923c-907ae2ead55c.slobod.jpg'></br><b>Рекреационная зона «Новая Слободка»</b></br>Оценка: <b>0.0/5</b></br>Это несколько источников, берущих начало у оврага в селе Новая Слободка Корочанского района. Потоки их соединены в один ручей кристально чистой родниковой воды.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='115'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "«Новая Слободка»'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac3.nature.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 116,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.6483,38.3994]},
+            "properties":
+                {
+                    "balloonContentHeader": "Красногвардейский краеведческий музей<br><span class='description'>Музей</span>",
+                    "balloonContent" : "Музей",
+                    "balloonContentBody": "<img style='width:15em' src='/img/3eb7a8a3-b7b3-4ea0-84d0-511e13794230.krasn.jpg'></br><b>Красногвардейский краеведческий музей</b></br>Оценка: <b>0.0/5</b></br>Этот архитектурный комплекс, состоящий из двух зданий, построен в 1782 году на средства местного купечества на Нижней торговой площади. Это один из двух в Белгородской области памятников архитектуры подобного типа.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='116'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Красногвардейский краеведческий музей'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac2.museum.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 117,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [51.2973,37.8321]},
+            "properties":
+                {
+                    "balloonContentHeader": "Старооскольский театр<br><span class='description'>Культурное наследие</span>",
+                    "balloonContent" : "Культурное наследие",
+                    "balloonContentBody": "<img style='width:15em' src='/img/ead2d889-7096-42be-a570-79c491992b2c.teatr.jpg'></br><b>Старооскольский театр для детей и молодежи имени Б. И. Равенских</b></br>Оценка: <b>0.0/5</b></br>Официально летопись Старооскольского театра для детей и молодежи ведется с 1 февраля 1996 года. Этим числом было датировано решение главы города о создании театра.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='117'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Старооскольский театр'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fa44.cult.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 118,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [51.2922,37.8241]},
+            "properties":
+                {
+                    "balloonContentHeader": "Храм Александра Невского<br><span class='description'>Храм</span>",
+                    "balloonContent" : "Храм",
+                    "balloonContentBody": "<img style='width:15em' src='/img/1c66ff86-8b7b-453d-9c7f-9c7ab527d2b3.nevs.jpg'></br><b>Храм Александра Невского в Старом Осколе</b></br>Оценка: <b>0.0/5</b></br>Храм Александра Невского возведен в 1903 году на средства будущих прихожан. Храмовый комплекс в новорусском стиле с трехъярусной колокольней располагается на территории бывшей слободы Гумны.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='118'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Храм Александра Невского'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac1.church.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 119,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [51.1166,37.8181]},
+            "properties":
+                {
+                    "balloonContentHeader": "Шмарненская пещера<br><span class='description'>Храм</span>",
+                    "balloonContent" : "Храм",
+                    "balloonContentBody": "<img style='width:15em' src='/img/0de808c6-4d60-4860-ad75-d4af3d750a69.shmar.jpg'></br><b>Шмарненская пещера</b></br>Оценка: <b>0.0/5</b></br>Это необычная подземная достопримечательность Белгородской области имеет славу места с сильной энергетикой и необъяснимыми явлениями.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='119'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Шмарненская пещера'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac1.church.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 120,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [51.3141,37.8636]},
+            "properties":
+                {
+                    "balloonContentHeader": "Паровоз «СУ-211-75»<br><span class='description'>Памятник</span>",
+                    "balloonContent" : "Памятник",
+                    "balloonContentBody": "<img style='width:15em' src='/img/99cf75b3-4b1d-4909-a4e2-5c4e6245b925.par.jpg'></br><b>Паровоз «СУ-211-75»</b></br>Оценка: <b>0.0/5</b></br>Паровоз «СУ-211-75» установлен в 1979 в честь трудового подвига железнодорожников. Он изготовлен в 1937 году на Сормовском заводе, обеспечивал подвоз вооружения и снаряжения войскам Центрального и Воронежского фронтов.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='120'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Паровоз «СУ-211-75»'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac5.monument.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 121,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [51.3232,37.896]},
+            "properties":
+                {
+                    "balloonContentHeader": "Рождественская церковь<br><span class='description'>Храм</span>",
+                    "balloonContent" : "Храм",
+                    "balloonContentBody": "<img style='width:15em' src='/img/a14c7dec-ecc3-4767-a5b3-4f25e55b5273.hram.jpeg'></br><b>Храм Рождества Христова</b></br>Оценка: <b>0.0/5</b></br>Храм Рождества Христова стал первым старооскольским храмом, построенным в XXI веке. Решение о строительстве было принято в конце 90-х. ",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='121'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Рождественская церковь'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac1.church.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 122,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.8133,35.4354]},
+            "properties":
+                {
+                    "balloonContentHeader": "«Новая слобода»<br><span class='description'>Музей</span>",
+                    "balloonContent" : "Музей",
+                    "balloonContentBody": "<img style='width:15em' src='/img/24f1c03c-4278-47a4-9fa8-56428b1e1bdf.newslob.jpg'></br><b>Историко-культурный комплекс «Новая слобода»</b></br>Оценка: <b>0.0/5</b></br>Музей под открытым небом – историко-культурный комплекс «Слобожанщина». Он рассказывает об истории приграничного края Русского государства XVI–XVIII веков, традициях, обычаях и быте его жителей.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='122'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "«Новая слобода»'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac2.museum.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 123,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.8136,35.4183]},
+            "properties":
+                {
+                    "balloonContentHeader": "Стела «Дерево жизни»<br><span class='description'>Памятник</span>",
+                    "balloonContent" : "Памятник",
+                    "balloonContentBody": "<img style='width:15em' src='/img/9428e09e-4b94-40a8-8a6a-597c4531539e.drevo.jpg'></br><b>Стела «Дерево жизни»</b></br>Оценка: <b>0.0/5</b></br>На въезде в село Колотиловка Краснояружского района – на границе Украины и России – установлена придорожная стела «Дерево жизни». Сооружение появилось здесь в конце 2020 года.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='123'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Стела «Дерево жизни»'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac5.monument.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 124,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.634,38.6955]},
+            "properties":
+                {
+                    "balloonContentHeader": "Алексеевский краеведческий музей<br><span class='description'>Музей</span>",
+                    "balloonContent" : "Музей",
+                    "balloonContentBody": "<img style='width:15em' src='/img/e0b6445d-5589-4d16-9a55-ecb3c07b9d3a.kray.jpg'></br><b>Алексеевский краеведческий музей</b></br>Оценка: <b>0.0/5</b></br>Музей располагает интересной коллекцией предметов салтово-маяцкой культуры, найденных на Алексеевском аланском городище (VIII–X вв.)",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='124'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Алексеевский краеведческий музей'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac2.museum.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 125,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.6298,38.6617]},
+            "properties":
+                {
+                    "balloonContentHeader": "Храм Димитрия Ростовского<br><span class='description'>Храм</span>",
+                    "balloonContent" : "Храм",
+                    "balloonContentBody": "<img style='width:15em' src='/img/f98bc8d8-d677-4ee8-970d-b8b4761cf639.hdm.jpg'></br><b>Храм Димитрия Ростовского в Алексеевке</b></br>Оценка: <b>0.0/5</b></br>Его заложили в 1813 году в Николаевской слободе. Позже угодья стали частью Алексеевки. Церковь, возведенная по классическому типу, является архитектурным наследием города. ",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='125'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Храм Димитрия Ростовского'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac1.church.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 126,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.676,38.8674]},
+            "properties":
+                {
+                    "balloonContentHeader": "Историко-литературный музей Н. В. Станкевича<br><span class='description'>Музей</span>",
+                    "balloonContent" : "Музей",
+                    "balloonContentBody": "<img style='width:15em' src='/img/adf48097-d4fb-427f-8b41-a042bec8902e.stank.jpeg'></br><b>Историко-литературный музей Н. В. Станкевича</b></br>Оценка: <b>0.0/5</b></br>Историко-литературный музей Н. В. Станкевича является реконструкцией бывшей земской школы в Удеревке. Она была открыта в 1908 году согласно завещанию Януария Михайловича Неверова.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='126'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Историко-литературный музей Н. В. Станкевича'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac2.museum.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 127,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.691,37.8193]},
+            "properties":
+                {
+                    "balloonContentHeader": "Заповедник «Стенки Изгорья»<br><span class='description'>Природа</span>",
+                    "balloonContent" : "Природа",
+                    "balloonContentBody": "<img style='width:15em' src='/img/4e014efa-6d30-477e-9103-b57561e15bfc.Sten.jpg'></br><b>Заповедник «Стенки Изгорья»</b></br>Оценка: <b>0.0/5</b></br>Заповедник «Стенки Изгорья» обладает площадью более 260 гектаров. Уникальная природная территория, сохранившая множество редких представителей флоры и фауны. Неповторимый ландшафт никого не оставит равнодушным.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='127'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Заповедник «Стенки Изгорья»'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac3.nature.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 128,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.7621,37.8617]},
+            "properties":
+                {
+                    "balloonContentHeader": "Собор Успения Пресвятой Богородицы<br><span class='description'>Храм</span>",
+                    "balloonContent" : "Храм",
+                    "balloonContentBody": "<img style='width:15em' src='/img/47018992-a9fb-49ee-9b51-ee21b7ca7e30.hr.jpg'></br><b>Собор Успения Пресвятой Богородицы</b></br>Оценка: <b>0.0/5</b></br>Храм был воздвигнут русскими умельцами на месте прежней деревянной церкви в 1803 году. Для этого были использованы средства, предоставленные прихожанами. Собор известен и тем, что в нем хранятся мощи и икона великомученицы Параскевы Пятницы.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='128'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Собор Успения Пресвятой Богородицы'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac1.church.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 129,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.7647,37.8632]},
+            "properties":
+                {
+                    "balloonContentHeader": "Памятник царю Алексею Романову<br><span class='description'>Памятник</span>",
+                    "balloonContent" : "Памятник",
+                    "balloonContentBody": "<img style='width:15em' src='/img/93f30a04-3985-4735-b04b-0c40ebf70b2d.mih.jpg'></br><b>Памятник царю Алексею Романову</b></br>Оценка: <b>0.0/5</b></br>Монумент расположен на Центральной площади города. Эту историческую личность выбрали для увековечивания неспроста. Именно Алексей Михайлович основал в 1647 году Царев-Алексеев.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='129'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Памятник царю Алексею Романову'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac5.monument.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 130,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.6571,36.5653]},
+            "properties":
+                {
+                    "balloonContentHeader": "Ротонда в честь 2000-летия Рождества Христова<br><span class='description'>Храм</span>",
+                    "balloonContent" : "Храм",
+                    "balloonContentBody": "<img style='width:15em' src='/img/76c2c1e8-f5b2-4ac5-8218-22546799eee3.rot.jpg'></br><b>Ротонда в честь 2000-летия Рождества Христова</b></br>Оценка: <b>0.0/5</b></br>Это неизменный символ веры и надежды каждого белгородца. Здесь не происходило чудес исцеления, не было подвигов, но каждый житель города, приходя сюда, ощущает непоколебимую силу духа.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='130'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Ротонда в честь 2000-летия Рождества Христова'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac1.church.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 131,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.5925,36.5854]},
+            "properties":
+                {
+                    "balloonContentHeader": "«Победа в Великой Отечественной войне»<br><span class='description'>Памятник</span>",
+                    "balloonContent" : "Памятник",
+                    "balloonContentBody": "<img style='width:15em' src='/img/77f57fc7-5c05-492d-aacd-13e23c6d9c10.yra.jpg'></br><b>Памятник «Победа в Великой Отечественной войне»</b></br>Оценка: <b>0.0/5</b></br>Памятник, посвящённый победе советского народа в Великой Отечественной войне, установлен на центральной аллее парка Победы 5 августа 1983 года.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='131'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "«Победа в Великой Отечественной войне»'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac5.monument.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 132,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.5977,36.5991]},
+            "properties":
+                {
+                    "balloonContentHeader": "Дом купца Селиванова<br><span class='description'>Культурное наследие</span>",
+                    "balloonContent" : "Культурное наследие",
+                    "balloonContentBody": "<img style='width:15em' src='/img/316de6b1-f35c-44e2-b34f-7a1b1b93aad0.sel.jpg'></br><b>Дом купца Селиванова</b></br>Оценка: <b>0.0/5</b></br>Старинное здание с высокими колонами, увенчанными портиком, построено в конце XVIII века, в 1782 году. Особняк принадлежал купцу Василию Селиванову.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='132'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Дом купца Селиванова'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fa44.cult.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 133,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.5943,36.594]},
+            "properties":
+                {
+                    "balloonContentHeader": "Нумера Вейнбаума<br><span class='description'>Культурное наследие</span>",
+                    "balloonContent" : "Культурное наследие",
+                    "balloonContentBody": "<img style='width:15em' src='/img/d71546de-869a-4473-92b0-a066003ac6b9.num.jpg'></br><b>Нумера Вейнбаума</b></br>Оценка: <b>0.0/5</b></br>Дом был построен богатым купцом и владельцем типографии Александром Александровичем Вейнбаумом. В нем располагались типография, магазин, гостиные номера и аптекарский магазин провизора Когана.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='133'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Нумера Вейнбаума'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fa44.cult.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 134,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.5973,36.6062]},
+            "properties":
+                {
+                    "balloonContentHeader": "Паровоз-памятник<br><span class='description'>Музей</span>",
+                    "balloonContent" : "Музей",
+                    "balloonContentBody": "<img style='width:15em' src='/img/cdec22ca-6efa-4c3e-a731-a29998ede32d.aa.jpg'></br><b>Музей истории белгородского отделения ЮВЖД</b></br>Оценка: <b>0.0/5</b></br>Уникальный паровоз-памятник в Белгороде, представленный в виде локомотива ЭМ 737‑62, выпущенный харьковским паровозостроительным заводом и первый доставивший по построенной за 32 дня «Дороге Мужества».",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='134'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Паровоз-памятник'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac2.museum.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 135,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.6002,36.5713]},
+            "properties":
+                {
+                    "balloonContentHeader": "Белгородский музей связи<br><span class='description'>Музей</span>",
+                    "balloonContent" : "Музей",
+                    "balloonContentBody": "<img style='width:15em' src='/img/96561a00-c802-4362-bea7-e9106c6f7ef2.svyaz.jpg'></br><b>Белгородский музей связи</b></br>Оценка: <b>0.0/5</b></br>Музей связи в Белгороде функционирует с октября 2003 года, а представлено в нём несколько тысяч экспонатов. Здесь вы узнаете все об истории местной почты и телеграфа.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='135'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Белгородский музей связи'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac2.museum.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 136,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.4855,35.6689]},
+            "properties":
+                {
+                    "balloonContentHeader": "Дом купца Дмитренко<br><span class='description'>Культурное наследие</span>",
+                    "balloonContent" : "Культурное наследие",
+                    "balloonContentBody": "<img style='width:15em' src='/img/e8e2b956-928a-4c75-b1eb-efd186195e4d.kupch.png'></br><b>Дом купца Дмитренко</b></br>Оценка: <b>0.0/5</b></br>Здание представляет собой образец провинциальной архитектуры начала прошлого века. Его внешний облик напоминает замок – стиль модерн сочетается со средневековыми архитектурными чертами.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='136'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Дом купца Дмитренко'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fa44.cult.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 137,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.4861,35.6631]},
+            "properties":
+                {
+                    "balloonContentHeader": "Мужская гимназия<br><span class='description'>Культурное наследие</span>",
+                    "balloonContent" : "Культурное наследие",
+                    "balloonContentBody": "<img style='width:15em' src='/img/a81c20cb-ca20-4a22-8aa1-c8be4d8a25be.muzh.jpg'></br><b>Мужская гимназия</b></br>Оценка: <b>0.0/5</b></br>Бывшая мужская гимназия в Грайвороне по улице Горького состоит из комплекса зданий, построенных в разные годы прошлых веков. Два здания возведены недалеко друг от друга – всего в двадцати метрах – имеют оригинальный дизайн и историю.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='137'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Мужская гимназия'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fa44.cult.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 41,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.6219,36.1006]},
+            "properties":
+                {
+                    "balloonContentHeader": "Стригуновский Дом культуры<br><span class='description'>Культурное наследие</span>",
+                    "balloonContent" : "Культурное наследие",
+                    "balloonContentBody": "<img style='width:15em' src='/img/0fd59a3b-de85-4584-ad65-fdec930ab813.strdk.jpeg'></br><b>Стригуновский центральный сельский Дом культуры</b></br>Оценка: <b>0.0/5</b></br>Здание построено в 1970 году по типовому проекту. Капитально отремонтировано в 2011 году. В этом же году распоряжением администрации Борисовского района Дому культуры был присвоен статус «Модельный». ",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='41'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Стригуновский Дом культуры'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fa44.cult.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 94,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.5185,36.4506]},
+            "properties":
+                {
+                    "balloonContentHeader": "Парк «Русский лес»<br><span class='description'>Природа</span>",
+                    "balloonContent" : "Природа",
+                    "balloonContentBody": "<img style='width:15em' src='/img/2ef7c43e-d556-4c52-9293-0b7bb4edd14f.mayrl.jpg'></br><b>Парк «Русский лес»</b></br>Оценка: <b>0.0/5</b></br>Парк в стиле модерн, среди деревьев с декоративно сформированными кронами здесь располагаются детские площадки и зоны для пикника",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='94'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Парк «Русский лес»'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac3.nature.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+,        {
+            "id": 100,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.5828,36.7261]},
+            "properties":
+                {
+                    "balloonContentHeader": "Землянка времен ВОВ<br><span class='description'>Памятник</span>",
+                    "balloonContent" : "Памятник",
+                    "balloonContentBody": "<img style='width:15em' src='/img/8af87d5e-6b7f-41ed-a15b-8874bb628127.zeml.jpg'></br><b>Землянка времен ВОВ</b></br>Оценка: <b>0.0/5</b></br>Воссозданная землянка времен оборонительных боев июля 1943 года, когда здесь насмерть стояла 81 дивизия генерал-майора Н. К. Морозова.",
+                    "balloonContentFooter": "<form action='/' method='post'><input type='hidden' id='id_sight' value='100'><input type='hidden' name='_csrf' value='${_csrf.token}'><button type='button' id='add_sight' class='btn btn-dark'>Добавить</button></form>",
+                    "hintContent": "Землянка времен ВОВ'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac5.monument.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+    ]
+}

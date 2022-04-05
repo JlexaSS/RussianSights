@@ -1,0 +1,50 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "id": 0,
+            "type": "Feature",
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.59375591798259,36.57648925026963]},
+            "properties":
+                {
+                    "balloonContentHeader": "НИУ'БелГУ'<br><span class='description'>Культурное наследие</span>",
+                    "balloonContent" : "Музей",
+                    "balloonContentBody": "<img style='width:15em' src='/img/68e2b43f-0a8f-4ed6-97a7-9fde4314e704.belgu.jpg'></br><b>Белгородский государственный университет</b></br>Оценка: <b>5/5</b></br>Данный университет является достоянием культурного наследния Белгородчины",
+                    "balloonContentFooter": "<button class='btn btn-dark'>Добавить</button>",
+                    "hintContent": "НИУ'БелГУ'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac2.museum.png",
+                    "iconImageSize" : [40,40]
+                }
+        },
+        {
+            "type": "Feature",
+            "id": 1,
+            "geometry":
+                {
+                    "type": "Point",
+                    "coordinates": [50.8,36.57648925026963]
+                },
+            "properties":
+                {
+                    "balloonContentHeader": "НИУ'БелГУ'<br><span class='description'>Культурное наследие</span>",
+                    "balloonContent" : "Памятник",
+                    "balloonContentBody": "<img style='width:15em' src='/img/68e2b43f-0a8f-4ed6-97a7-9fde4314e704.belgu.jpg'></br><b>Белгородский государственный университет</b></br>Оценка: <b>5/5</b></br>Данный университет является достоянием культурного наследния Белгородчины",
+                    "balloonContentFooter": "<button class='btn btn-dark'>Добавить</button>",
+                    "hintContent": "НИУ'БелГУ'"
+                },
+            "options":
+                {
+                    "iconLayout": "default#image",
+                    "iconImageHref" : "/img/fe12e71b-94d5-40f6-a3fc-0c00af30fac4.sculpture.png",
+                    "iconImageSize" : [40,40]
+                }
+        }
+    ]
+}
