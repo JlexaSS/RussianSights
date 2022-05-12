@@ -8,64 +8,72 @@ import com.example.JustLearning.repository.UserRepository;
 import org.locationtech.jts.geom.Point;
 import org.locationtech.jts.io.ParseException;
 import org.locationtech.jts.io.WKTReader;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
-
 
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.*;
+import java.util.Arrays;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.Optional;
+import java.util.Set;
+import java.util.UUID;
 import java.util.stream.Collectors;
 
 @Controller
 @RequestMapping("/admin-panel")
 @PreAuthorize("hasAuthority('ADMIN')")
 public class AdminController {
-    @Autowired
-    private UserRepository userRepository;
+    private final UserRepository userRepository;
+    private final SightsRepository sightsRepository;
+    private final String uploadPath;
+    private final String jsonPath;
 
-    @Autowired
-    private SightsRepository sightsRepository;
+    public AdminController(UserRepository userRepository, SightsRepository sightsRepository, @Value("${upload.path}") String uploadPath, @Value("${json.path}") String jsonPath) {
+        this.userRepository = userRepository;
+        this.sightsRepository = sightsRepository;
+        this.uploadPath = uploadPath;
+        this.jsonPath = jsonPath;
+    }
 
-    @Value("${upload.path}")
-    private String uploadPath;
-
-    @Value("${json.path}")
-    private String jsonPath;
 
     @GetMapping
-    public String adminpanel(){
+    public String adminpanel() {
         return "admin-panel";
     }
 
     @GetMapping("userlist")
-    public String userList(Model model){
+    public String userList(Model model) {
         model.addAttribute("users", userRepository.findAll());
         return "userList";
     }
 
     @GetMapping("userlist/{user}")
-    public String userEditForm(@PathVariable User user, Model model){
+    public String userEditForm(@PathVariable User user, Model model) {
         model.addAttribute("user", user);
         model.addAttribute("roles", Role.values());
         return "userEdit";
     }
 
     @PostMapping("userlist")
-    public String userSave(@RequestParam("userId") User user, @RequestParam Map<String, String> form, @RequestParam String username){
+    public String userSave(@RequestParam("userId") User user, @RequestParam Map<String, String> form, @RequestParam String username) {
         user.setUsername(username);
         Set<String> roles = Arrays.stream(Role.values()).map(Role::name).collect(Collectors.toSet());
 
         user.getRoles().clear();
 
-        for(String key : form.keySet()){
-            if(roles.contains(key)){
+        for (String key : form.keySet()) {
+            if (roles.contains(key)) {
                 user.getRoles().add(Role.valueOf(key));
             }
         }
@@ -75,20 +83,20 @@ public class AdminController {
     }
 
     @GetMapping("sightslist")
-    public String sigthsList(Model model){
+    public String sigthsList(Model model) {
         model.addAttribute("sights", sightsRepository.findAll());
         return "sightsList";
     }
 
     @GetMapping("addsight")
-    public String addSight(){
+    public String addSight() {
         return "addSight";
     }
 
     @PostMapping("addsight")
     public String saveSight(Sights sight, @RequestParam("file") MultipartFile file, @RequestParam String geo) throws IOException, ParseException {
         File uploadDir = new File(uploadPath);
-        if(!uploadDir.exists()){
+        if (!uploadDir.exists()) {
             uploadDir.mkdir();
         }
         String uuidFile = UUID.randomUUID().toString();
@@ -99,7 +107,7 @@ public class AdminController {
         sight.setGeom((Point) reader.read(geo));
         sight.setImage(resultFilename);
         sight.setRating((float) 0.0);
-        switch (sight.getType_mark()){
+        switch (sight.getType_mark()) {
             case "Музей":
                 sight.setIcon("fe12e71b-94d5-40f6-a3fc-0c00af30fac2.museum.png");
                 break;
@@ -127,7 +135,7 @@ public class AdminController {
                 "    \"type\": \"FeatureCollection\",\n" +
                 "    \"features\": [";
         Iterator iter = allSights.iterator();
-        while (iter.hasNext()){
+        while (iter.hasNext()) {
             current = (Sights) iter.next();
             json += "        {\n" +
                     "            \"id\": " + current.getId() + ",\n" +
@@ -135,10 +143,10 @@ public class AdminController {
                     "            \"geometry\":\n" +
                     "                {\n" +
                     "                    \"type\": \"Point\",\n" +
-                    "                    \"coordinates\": ["+ current.getGeom().getX() + "," + current.getGeom().getY() + "]},\n" +
+                    "                    \"coordinates\": [" + current.getGeom().getX() + "," + current.getGeom().getY() + "]},\n" +
                     "            \"properties\":\n" +
                     "                {\n" +
-                    "                    \"balloonContentHeader\": \""+ current.getTitle() +"<br><span class='description'>" + current.getType_mark() + "</span>\",\n" +
+                    "                    \"balloonContentHeader\": \"" + current.getTitle() + "<br><span class='description'>" + current.getType_mark() + "</span>\",\n" +
                     "                    \"balloonContent\" : \"" + current.getType_mark() + "\",\n" +
                     "                    \"balloonContentBody\": \"<img style='width:15em' src='/img/" + current.getImage() + "'></br><b>" + current.getName_mark() + "</b></br>Оценка: <b>" + current.getRating() + "/5</b></br>" + current.getDescription() + "\",\n" +
                     "                    \"balloonContentFooter\": \"<form action=\"/\" method=\"post\"><input type=\"hidden\" name=\"id_sight\" value=\"" + current.getId() + "\"><input type=\"hidden\" name=\"_csrf\" value=\"${_csrf.token}\"><button class='btn btn-dark'>Добавить</button></form>\",\n" +
@@ -151,7 +159,7 @@ public class AdminController {
                     "                    \"iconImageSize\" : [40,40]\n" +
                     "                }\n" +
                     "        }\n";
-            if (iter.hasNext()){
+            if (iter.hasNext()) {
                 json += ",";
             }
         }
@@ -163,7 +171,7 @@ public class AdminController {
     }
 
     @GetMapping("sightslist/{id}")
-    public String editSight(@PathVariable Integer id, Model model){
+    public String editSight(@PathVariable Integer id, Model model) {
         Optional<Sights> sight = sightsRepository.findById(id);
         model.addAttribute("sight", sight);
         return "sightEdit";
@@ -181,7 +189,7 @@ public class AdminController {
         sight.setTitle(title);
         sight.setName_mark(name_mark);
         sight.setDescription(description);
-        if(!file.getOriginalFilename().isEmpty()){
+        if (!file.getOriginalFilename().isEmpty()) {
             File uploadDir = new File(uploadPath);
 
             if (!uploadDir.exists()) {
@@ -196,7 +204,7 @@ public class AdminController {
             sight.setImage(resultFilename);
         }
         sight.setType_mark(type_mark);
-        switch (type_mark){
+        switch (type_mark) {
             case "Музей":
                 sight.setIcon("fe12e71b-94d5-40f6-a3fc-0c00af30fac2.museum.png");
                 break;
