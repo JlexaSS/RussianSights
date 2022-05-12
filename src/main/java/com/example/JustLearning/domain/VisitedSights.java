@@ -1,7 +1,18 @@
 package com.example.JustLearning.domain;
 
-import javax.persistence.*;
+import lombok.Getter;
+import lombok.Setter;
 
+import javax.persistence.Entity;
+import javax.persistence.FetchType;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+
+@Getter
+@Setter
 @Entity
 public class VisitedSights {
     @Id
@@ -26,37 +37,5 @@ public class VisitedSights {
         this.user = user;
         this.rating = (float)0.0;
         this.visited = false;
-    }
-
-    public Sights getSight() {
-        return sight;
-    }
-
-    public void setSight(Sights sight) {
-        this.sight = sight;
-    }
-
-    public User getUser() {
-        return user;
-    }
-
-    public void setUser(User user) {
-        this.user = user;
-    }
-
-    public Float getRating() {
-        return rating;
-    }
-
-    public void setRating(Float rating) {
-        this.rating = rating;
-    }
-
-    public Boolean getVisited() {
-        return visited;
-    }
-
-    public void setVisited(Boolean visited) {
-        this.visited = visited;
     }
 }
