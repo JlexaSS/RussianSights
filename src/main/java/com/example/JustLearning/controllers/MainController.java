@@ -1,26 +1,26 @@
 package com.example.JustLearning.controllers;
 
 import com.example.JustLearning.domain.Message;
-import com.example.JustLearning.domain.Sights;
 import com.example.JustLearning.domain.User;
 import com.example.JustLearning.domain.VisitedSights;
 import com.example.JustLearning.repository.MessageRepository;
-import com.example.JustLearning.repository.SightsRepository;
 import com.example.JustLearning.repository.UserRepository;
 import com.example.JustLearning.repository.VisitedRepository;
-import org.locationtech.jts.geom.Point;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.File;
-import java.io.FileWriter;
 import java.io.IOException;
-import java.util.Iterator;
 import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
@@ -32,15 +32,15 @@ public class MainController {
     @Autowired
     private MessageRepository messageRepository;
 
-    @Autowired
-    private UserRepository userRepository;
+    private final UserRepository userRepository;
+    private final VisitedRepository visitedRepository;
+    private final String uploadPath;
 
-    @Autowired
-    private VisitedRepository visitedRepository;
-
-    @Value("${upload.path}")
-    private String uploadPath;
-
+    public MainController(UserRepository userRepository, VisitedRepository visitedRepository, @Value("${upload.path}") String uploadPath) {
+        this.userRepository = userRepository;
+        this.visitedRepository = visitedRepository;
+        this.uploadPath = uploadPath;
+    }
 
 
     @GetMapping
