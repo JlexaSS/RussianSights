@@ -1,6 +1,7 @@
 package com.example.JustLearning.domain;
 
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.persistence.Entity;
@@ -13,6 +14,7 @@ import javax.persistence.ManyToOne;
 
 @Getter
 @Setter
+@NoArgsConstructor
 @Entity
 public class VisitedSights {
     @Id
@@ -29,8 +31,6 @@ public class VisitedSights {
 
     private Float rating;
     private Boolean visited;
-
-    public VisitedSights(){}
 
     public VisitedSights(Sights sight, User user, Float rating){
         this.sight = sight;
