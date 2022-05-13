@@ -5,6 +5,7 @@ import com.example.JustLearning.domain.Sights;
 import com.example.JustLearning.domain.User;
 import com.example.JustLearning.repository.SightsRepository;
 import com.example.JustLearning.repository.UserRepository;
+import com.example.JustLearning.service.UserService;
 import org.locationtech.jts.geom.Point;
 import org.locationtech.jts.io.ParseException;
 import org.locationtech.jts.io.WKTReader;
@@ -22,13 +23,10 @@ import org.springframework.web.multipart.MultipartFile;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.Arrays;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.Optional;
-import java.util.Set;
 import java.util.UUID;
-import java.util.stream.Collectors;
 
 @Controller
 @RequestMapping("/admin-panel")
@@ -38,12 +36,14 @@ public class AdminController {
     private final SightsRepository sightsRepository;
     private final String uploadPath;
     private final String jsonPath;
+    private final UserService userService;
 
-    public AdminController(UserRepository userRepository, SightsRepository sightsRepository, @Value("${upload.path}") String uploadPath, @Value("${json.path}") String jsonPath) {
+    public AdminController(UserRepository userRepository, SightsRepository sightsRepository, @Value("${upload.path}") String uploadPath, @Value("${json.path}") String jsonPath, UserService userService) {
         this.userRepository = userRepository;
         this.sightsRepository = sightsRepository;
         this.uploadPath = uploadPath;
         this.jsonPath = jsonPath;
+        this.userService = userService;
     }
 
 
@@ -67,18 +67,7 @@ public class AdminController {
 
     @PostMapping("userlist")
     public String userSave(@RequestParam("userId") User user, @RequestParam Map<String, String> form, @RequestParam String username) {
-        user.setUsername(username);
-        Set<String> roles = Arrays.stream(Role.values()).map(Role::name).collect(Collectors.toSet());
-
-        user.getRoles().clear();
-
-        for (String key : form.keySet()) {
-            if (roles.contains(key)) {
-                user.getRoles().add(Role.valueOf(key));
-            }
-        }
-
-        userRepository.save(user);
+        userService.updateRoles(user, form, username);
         return "redirect:/admin-panel/userlist";
     }
 
