@@ -35,12 +35,10 @@ public class MainController {
         this.userService = userService;
     }
 
-
     @GetMapping
     public String home() {
         return "home";
     }
-
 
     @GetMapping("/profile/{user}")
     public String profile(@PathVariable Long user, Model model) {
@@ -49,7 +47,6 @@ public class MainController {
         model.addAttribute("id_user", user);
         return "profile";
     }
-
 
     @GetMapping("/profile/edit/{id}")
     public String editProfile(@PathVariable Long id, Model model) {

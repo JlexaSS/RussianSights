@@ -17,7 +17,6 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Iterator;
 
-
 @RestController
 public class RController {
     private final VisitedRepository visitedRepository;

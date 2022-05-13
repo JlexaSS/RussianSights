@@ -1,5 +1,6 @@
 package com.example.JustLearning.domain;
 
+import com.example.JustLearning.enums.Role;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.security.core.GrantedAuthority;

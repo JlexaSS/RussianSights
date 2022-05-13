@@ -1,6 +1,6 @@
 package com.example.JustLearning.service;
 
-import com.example.JustLearning.domain.Role;
+import com.example.JustLearning.enums.Role;
 import com.example.JustLearning.domain.User;
 import com.example.JustLearning.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Value;

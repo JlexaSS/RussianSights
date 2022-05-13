@@ -1,4 +1,4 @@
-package com.example.JustLearning.domain;
+package com.example.JustLearning.enums;
 
 import org.springframework.security.core.GrantedAuthority;
 
