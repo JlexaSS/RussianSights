@@ -13,14 +13,12 @@
                 <input type="text" class="form-control" id="name_mark" name="name_mark" required="required">
             </div>
             <div class="col-md-6">
-                <label for="type_mark" class="form-label">Тип</label>
-                <select class="form-control" id="type_mark" name="type_mark">
-                    <option selected value="Музей">Музей</option>
-                    <option value="Памятник">Памятник</option>
-                    <option value="Храм">Храм</option>
-                    <option value="Природа">Природа</option>
-                    <option value="Скульптура">Скульптура</option>
-                    <option value="Культурное наследие">Культурное наследие</option>
+                <label for="enumType" class="form-label">Тип</label>
+                <select class="form-control" id="enumType" name="enumType">
+                    <#list enumValues as enum>
+                        <option value="${enum}">${enum.getCategory()}</option>
+                    </#list>
+
                 </select>
             </div>
             <div class="col-md-6">

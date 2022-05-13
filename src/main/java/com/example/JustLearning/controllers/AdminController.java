@@ -3,6 +3,7 @@ package com.example.JustLearning.controllers;
 import com.example.JustLearning.domain.Role;
 import com.example.JustLearning.domain.Sights;
 import com.example.JustLearning.domain.User;
+import com.example.JustLearning.enums.markTypes;
 import com.example.JustLearning.repository.SightsRepository;
 import com.example.JustLearning.repository.UserRepository;
 import com.example.JustLearning.service.UserService;
@@ -78,45 +79,29 @@ public class AdminController {
     }
 
     @GetMapping("addsight")
-    public String addSight() {
+    public String addSight(Model model) {
+        model.addAttribute("enumValues", markTypes.values());
         return "addSight";
     }
 
     @PostMapping("addsight")
-    public String saveSight(Sights sight, @RequestParam("file") MultipartFile file, @RequestParam String geo) throws IOException, ParseException {
-        File uploadDir = new File(uploadPath);
+    public String saveSight(Sights sight, @RequestParam("enumType") markTypes type, @RequestParam("file") MultipartFile file, @RequestParam String geo) throws IOException, ParseException {
+        File uploadDir = new File("C:/Users/Jlexa/Documents/RussianSights/src/main/resources/uploads");
         if (!uploadDir.exists()) {
             uploadDir.mkdir();
         }
         String uuidFile = UUID.randomUUID().toString();
         String resultFilename = uuidFile + "." + file.getOriginalFilename();
-        file.transferTo(new File(uploadPath + "/" + resultFilename));
+        file.transferTo(new File(uploadDir + "/" + resultFilename));
 
         WKTReader reader = new WKTReader();
         sight.setGeom((Point) reader.read(geo));
         sight.setImage(resultFilename);
         sight.setRating((float) 0.0);
-        switch (sight.getType_mark()) {
-            case "Музей":
-                sight.setIcon("fe12e71b-94d5-40f6-a3fc-0c00af30fac2.museum.png");
-                break;
-            case "Памятник":
-                sight.setIcon("fe12e71b-94d5-40f6-a3fc-0c00af30fac5.monument.png");
-                break;
-            case "Храм":
-                sight.setIcon("fe12e71b-94d5-40f6-a3fc-0c00af30fac1.church.png");
-                break;
-            case "Природа":
-                sight.setIcon("fe12e71b-94d5-40f6-a3fc-0c00af30fac3.nature.png");
-                break;
-            case "Скульптура":
-                sight.setIcon("fe12e71b-94d5-40f6-a3fc-0c00af30fac4.sculpture.png");
-                break;
-            case "Культурное наследие":
-                sight.setIcon("fe12e71b-94d5-40f6-a3fc-0c00af30fa44.cult.png");
-                break;
-        }
+        sight.setType_mark(type.getCategory());
+        sight.setIcon(type.getIconPath());
         sightsRepository.save(sight);
+
         Iterable<Sights> allSights = sightsRepository.findAll();
         Sights current;
         FileWriter fileWriter = new FileWriter(jsonPath + "/new.json");
