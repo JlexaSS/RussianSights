@@ -6,10 +6,9 @@ import com.example.JustLearning.domain.User;
 import com.example.JustLearning.enums.markTypes;
 import com.example.JustLearning.repository.SightsRepository;
 import com.example.JustLearning.repository.UserRepository;
+import com.example.JustLearning.service.SightsService;
 import com.example.JustLearning.service.UserService;
-import org.locationtech.jts.geom.Point;
 import org.locationtech.jts.io.ParseException;
-import org.locationtech.jts.io.WKTReader;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Controller;
@@ -35,13 +34,15 @@ import java.util.UUID;
 public class AdminController {
     private final UserRepository userRepository;
     private final SightsRepository sightsRepository;
+    private final SightsService sightsService;
     private final String uploadPath;
     private final String jsonPath;
     private final UserService userService;
 
-    public AdminController(UserRepository userRepository, SightsRepository sightsRepository, @Value("${upload.path}") String uploadPath, @Value("${json.path}") String jsonPath, UserService userService) {
+    public AdminController(UserRepository userRepository, SightsRepository sightsRepository, SightsService sightsService, @Value("${upload.path}") String uploadPath, @Value("${json.path}") String jsonPath, UserService userService) {
         this.userRepository = userRepository;
         this.sightsRepository = sightsRepository;
+        this.sightsService = sightsService;
         this.uploadPath = uploadPath;
         this.jsonPath = jsonPath;
         this.userService = userService;
@@ -86,21 +87,7 @@ public class AdminController {
 
     @PostMapping("addsight")
     public String saveSight(Sights sight, @RequestParam("enumType") markTypes type, @RequestParam("file") MultipartFile file, @RequestParam String geo) throws IOException, ParseException {
-        File uploadDir = new File("C:/Users/Jlexa/Documents/RussianSights/src/main/resources/uploads");
-        if (!uploadDir.exists()) {
-            uploadDir.mkdir();
-        }
-        String uuidFile = UUID.randomUUID().toString();
-        String resultFilename = uuidFile + "." + file.getOriginalFilename();
-        file.transferTo(new File(uploadDir + "/" + resultFilename));
-
-        WKTReader reader = new WKTReader();
-        sight.setGeom((Point) reader.read(geo));
-        sight.setImage(resultFilename);
-        sight.setRating((float) 0.0);
-        sight.setType_mark(type.getCategory());
-        sight.setIcon(type.getIconPath());
-        sightsRepository.save(sight);
+        sightsService.addNewSight(sight, type, file, geo);
 
         Iterable<Sights> allSights = sightsRepository.findAll();
         Sights current;
@@ -148,6 +135,7 @@ public class AdminController {
     public String editSight(@PathVariable Integer id, Model model) {
         Optional<Sights> sight = sightsRepository.findById(id);
         model.addAttribute("sight", sight);
+        model.addAttribute("enumValues", markTypes.values());
         return "sightEdit";
     }
 
@@ -156,50 +144,14 @@ public class AdminController {
             @RequestParam("id_sight") Sights sight,
             @RequestParam("title") String title,
             @RequestParam("name_mark") String name_mark,
-            @RequestParam("type_mark") String type_mark,
+            @RequestParam("enumType") markTypes type,
             @RequestParam("description") String description,
             @RequestParam("image") MultipartFile file
     ) throws IOException {
-        sight.setTitle(title);
-        sight.setName_mark(name_mark);
-        sight.setDescription(description);
-        if (!file.getOriginalFilename().isEmpty()) {
-            File uploadDir = new File(uploadPath);
-
-            if (!uploadDir.exists()) {
-                uploadDir.mkdir();
-            }
-
-            String uuidFile = UUID.randomUUID().toString();
-            String resultFilename = uuidFile + "." + file.getOriginalFilename();
-
-            file.transferTo(new File(uploadPath + "/" + resultFilename));
-
-            sight.setImage(resultFilename);
-        }
-        sight.setType_mark(type_mark);
-        switch (type_mark) {
-            case "Музей":
-                sight.setIcon("fe12e71b-94d5-40f6-a3fc-0c00af30fac2.museum.png");
-                break;
-            case "Памятник":
-                sight.setIcon("fe12e71b-94d5-40f6-a3fc-0c00af30fac5.monument.png");
-                break;
-            case "Храм":
-                sight.setIcon("fe12e71b-94d5-40f6-a3fc-0c00af30fac1.church.png");
-                break;
-            case "Природа":
-                sight.setIcon("fe12e71b-94d5-40f6-a3fc-0c00af30fac3.nature.png");
-                break;
-            case "Скульптура":
-                sight.setIcon("fe12e71b-94d5-40f6-a3fc-0c00af30fac4.sculpture.png");
-                break;
-            case "Культурное наследие":
-                sight.setIcon("fe12e71b-94d5-40f6-a3fc-0c00af30fa44.cult.png");
-                break;
-        }
-        sightsRepository.save(sight);
+        sightsService.editSights(sight, title, name_mark, type, description, file);
         return "redirect:sightslist/";
     }
+
+
 }
 

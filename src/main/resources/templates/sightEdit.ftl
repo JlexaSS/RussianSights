@@ -19,14 +19,11 @@
                     <textarea type="text" class="form-control" id="description" name="description" rows="4">${sight.get().description}</textarea>
                 </div>
                 <div class="col-5">
-                    <label for="type_mark" class="form-label">Тип объекта</label>
-                    <select class="form-control" id="type_mark" name="type_mark">
-                        <option selected value="Музей">Музей</option>
-                        <option value="Памятник">Памятник</option>
-                        <option value="Храм">Храм</option>
-                        <option value="Природа">Природа</option>
-                        <option value="Скульптура">Скульптура</option>
-                        <option value="Культурное наследие">Культурное наследие</option>
+                    <label for="enumType" class="form-label">Тип</label>
+                    <select class="form-control" id="enumType" name="enumType">
+                        <#list enumValues as enum>
+                            <option value="${enum}">${enum.getCategory()}</option>
+                        </#list>
                     </select>
                 </div>
                 <div class="col-7">

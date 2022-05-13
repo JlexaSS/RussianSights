@@ -18,7 +18,6 @@
                     <#list enumValues as enum>
                         <option value="${enum}">${enum.getCategory()}</option>
                     </#list>
-
                 </select>
             </div>
             <div class="col-md-6">
