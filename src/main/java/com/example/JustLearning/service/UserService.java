@@ -58,22 +58,44 @@ public class UserService implements UserDetailsService {
         if(file.getOriginalFilename().isEmpty()){
             user.setImgProfile("68e2b43f-0a8f-4ed6-97a7-9fde4314e703.profileimage.png");
         } else{
-            File uploadDir = new File(uploadPath);
-
-            if(!uploadDir.exists()){
-                uploadDir.mkdir();
-            }
-
-            String uuidFile = UUID.randomUUID().toString();
-            String resultFilename = uuidFile + "." + file.getOriginalFilename();
-
-            file.transferTo(new File(uploadPath + "/" + resultFilename));
-
-            user.setImgProfile(resultFilename);
+            uploadFile(user, file);
         }
         user.setActive(true);
         user.setRoles(Collections.singleton(Role.USER));
         userRepository.save(user);
         return false;
+    }
+
+    public String editUserData(User user, String name, String second_name, String email, String password, MultipartFile file, Model model) throws IOException {
+        String truePas = user.getPassword();
+        if (truePas.equals(password)) {
+            user.setName(name);
+            user.setSecond_name(second_name);
+            user.setEmail(email);
+            if (!file.getOriginalFilename().isEmpty()) {
+                uploadFile(user, file);
+            }
+            userRepository.save(user);
+
+            return "redirect:/profile/" + user.getId();
+        } else {
+            model.addAttribute("error", "Пароль пуст или введен неверно!");
+            return "redirect:/profile/edit/" + user.getId();
+        }
+    }
+
+    public void uploadFile(User user, MultipartFile file) throws IOException {
+        File uploadDir = new File(uploadPath);
+
+        if(!uploadDir.exists()){
+            uploadDir.mkdir();
+        }
+
+        String uuidFile = UUID.randomUUID().toString();
+        String resultFilename = uuidFile + "." + file.getOriginalFilename();
+
+        file.transferTo(new File(uploadPath + "/" + resultFilename));
+
+        user.setImgProfile(resultFilename);
     }
 }

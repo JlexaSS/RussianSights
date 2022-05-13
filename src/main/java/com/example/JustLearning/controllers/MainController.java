@@ -4,6 +4,7 @@ import com.example.JustLearning.domain.User;
 import com.example.JustLearning.domain.VisitedSights;
 import com.example.JustLearning.repository.UserRepository;
 import com.example.JustLearning.repository.VisitedRepository;
+import com.example.JustLearning.service.UserService;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.stereotype.Controller;
@@ -16,11 +17,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 
-import java.io.File;
 import java.io.IOException;
 import java.util.List;
 import java.util.Optional;
-import java.util.UUID;
 
 
 @Controller
@@ -28,12 +27,12 @@ public class MainController {
 
     private final UserRepository userRepository;
     private final VisitedRepository visitedRepository;
-    private final String uploadPath;
+    private final UserService userService;
 
-    public MainController(UserRepository userRepository, VisitedRepository visitedRepository, @Value("${upload.path}") String uploadPath) {
+    public MainController(UserRepository userRepository, VisitedRepository visitedRepository, UserService userService, @Value("${upload.path}") String uploadPath) {
         this.userRepository = userRepository;
         this.visitedRepository = visitedRepository;
-        this.uploadPath = uploadPath;
+        this.userService = userService;
     }
 
 
@@ -70,32 +69,7 @@ public class MainController {
             @RequestParam("file") MultipartFile file,
             Model model
     ) throws IOException {
-        String truePas = user.getPassword();
-        if (truePas.equals(password)) {
-            user.setName(name);
-            user.setSecond_name(second_name);
-            user.setEmail(email);
-            if (!file.getOriginalFilename().isEmpty()) {
-                File uploadDir = new File(uploadPath);
-
-                if (!uploadDir.exists()) {
-                    uploadDir.mkdir();
-                }
-
-                String uuidFile = UUID.randomUUID().toString();
-                String resultFilename = uuidFile + "." + file.getOriginalFilename();
-
-                file.transferTo(new File(uploadPath + "/" + resultFilename));
-
-                user.setImgProfile(resultFilename);
-            }
-            userRepository.save(user);
-
-            return "redirect:/profile/" + user.getId();
-        } else {
-            model.addAttribute("error", "Пароль пуст или введен неверно!");
-            return "redirect:/profile/edit/" + user.getId();
-        }
+        return userService.editUserData(user, name, second_name, email, password, file, model);
     }
 
     @RequestMapping(value = "/mysights", method = RequestMethod.GET)
